@@ -6,8 +6,8 @@ const CONFIG = {
   mode: 'development',
   entry: resolve('src/app.js'),
   output: {
-    path: `${__dirname}/dist`,
-    filename: 'dist/bundle.js'
+    path: `${__dirname}`,
+    filename: 'bundle.js'
   },
   devServer: {
     contentBase: join(__dirname, 'index.html'),
